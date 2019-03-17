@@ -19,7 +19,7 @@
 	
 	
 	<platform name="android">
-        <icon qualifier="xxxhdpi" src="Icon.png" />
+        <icon qualifier="xxxhdpi" src="icon.png" />
         <splash qualifier="" src="Splash.png" />
    	</platform>
 	
