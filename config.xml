@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.ingeotec.IngeotecUNLaR" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Elecciones La Rioja 2019</name>
+    <description>
+        Guía Elecciones La Rioja 2019
+    </description>
+    <author email="marcos.nieto17@gmail.com" href="http://www.innovalr.com.ar/">
+        Marcos Nieto
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+   	
+	
+	<gap:splash src="splash.png" />
+<preference name="show-splash-screen-spinner" value="true" />
+<preference name="SplashScreenDelay" value="5000" />    
+<preference name="fullscreen" value="true" />
+	
+	
+	
+	<platform name="android">
+        <icon qualifier="xxxhdpi" src="Icon.png" />
+        <splash qualifier="" src="Splash.png" />
+   	</platform>
+	
+	
+<gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
+
+<gap:plugin name="cordova-plugin-splashscreen" source="npm"/>
+	
+	
+	
+</widget>
